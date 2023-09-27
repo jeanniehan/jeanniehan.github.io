@@ -1,0 +1,87 @@
+/* Reset some default styles for better cross-browser consistency */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font for the entire page */
+body {
+    font-family: courier, helvetica;
+    background-color: #0000;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the main content section */
+main {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style headings */
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* Style paragraphs */
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #000;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Style the plant exhibit section */
+.plant-exhibit {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Style the plant image */
+.plant-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style the plant description */
+.plant-description {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+/* Center the plant description vertically on small screens */
+@media (max-width: 768px) {
+    .plant-exhibit {
+        flex-direction: column;
+        text-align: center;
+    }
+    .plant-description {
+        order: -1;
+    }
+}
+
+
