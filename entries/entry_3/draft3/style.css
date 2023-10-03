@@ -1,0 +1,90 @@
+/* Reset some default styles */
+body {
+    margin: 2;
+    font-family: Courier;
+    background-color: white;
+
+}
+
+p {
+  text-align: center;
+  color: A9A9A9;
+}
+
+#para1 {
+  text-align: center;
+  color: A9A9A9;
+}
+
+
+
+
+/* Flower section styling */
+.flower-section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: 
+}
+
+/* Flower name styling */
+.flower-name {
+    font-size: 14px;
+    font-family: verdana;
+    color: A9A9A9;
+    margin-bottom: 10px;
+}
+
+/* Flower description styling */
+.flower-description {
+    color: A9A9A9;
+    font-size: 16px;
+    line-height: 3;
+    margin-bottom: 20px;
+}
+
+/* Flower poem styling */
+.flower-poem {
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.flower-quote {
+    font-size: 14px;
+    color: darkgray;
+    margin: 0;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+p1,p2,p3 {
+    font-size: 30;
+    font-family: verdana;
+
+}
+
+p4 {
+
+    font-size: 29;
+    font-family: helvetica;
+}
+
+p5 {
+    font size: 40;
+}
+
+
+/* Apply styles to the button */
+.button-container {
+    text-align: left;
+}
+
+.button1 {
+    /* Add your button styles here */
+    background-color: black; /* Change to your desired background color */
+    color: white; /* Change to your desired text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    text-decoration: none;
+    
+    
+}

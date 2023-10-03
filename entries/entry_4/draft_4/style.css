@@ -1,0 +1,163 @@
+ body, h1, h2, p, p2, p3, p4 {
+    margin: 5;
+    padding: 0;
+}
+
+ 
+header {
+    background-color: #001400;
+    color: black;
+    line-height: 1.6;
+    text-align: center;
+}
+
+ 
+body {
+    /* Use linear gradient from top to bottom */
+    background: linear-gradient(to bottom, white, white, white, black, black);
+    background-color: #001400;
+    color: black;
+    line-height: 1;
+    text-align: center;
+    margin: 180px;
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: 'VinylGeorge-MpdJ';
+    src: url('VinylGeorge-MpdJ.ttf') format('truetype'); /* URL to your font file */
+    /* You may need to specify other font formats (e.g., woff, woff2) for cross-browser compatibility */
+}
+
+/* Apply the custom font to elements */
+body {
+    font-family: 'VinylGeorge-MpdJ', sans-serif; /* Use the font-family name specified in @font-face */
+    /* Add any other styles you want for the body */
+}
+ 
+header {
+    background-color: black;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+
+p5{
+    color: white;
+}
+
+p7{
+    color: black;
+}
+
+p8{
+    color: white;
+}
+
+p2{
+    font-size: 30;
+    color: black;
+    line-height: 5;
+
+}
+
+p6{
+    color: white;
+}
+
+p3{
+    line-height: 5;
+    margin: 10;
+}
+.gradient-fill {
+  background: -webkit-linear-gradient(black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 5s ease;
+}
+
+.gradient-fill:hover {
+  background: -webkit-radial-gradient(#000000, #000000, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: plant;
+}
+
+p2{
+    line-height: 5;
+    margin: 10;
+}
+.gradient-fill {
+  background: -webkit-linear-gradient(black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 5s ease;
+}
+
+.gradient-fill:long-way {
+  background: -webkit-radial-gradient(#000000, #000000, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: plant;
+}
+
+.image-container {
+    position: relative;
+    width: 600px; /* Adjust the width and height as needed */
+    height: 900px;
+    text-align: center;
+}
+
+.image {
+    width: auto; /* Allow the image to scale proportionally */
+    height: auto;
+    max-width: 100%; /* Ensure the image doesn't exceed the container's width */
+    max-height: 100%; /* Ensure the image doesn't exceed the container's height */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: center; /* Center-align the image */
+    transition: opacity 0.3s ease-in-out; /* Add a smooth transition effect */
+    z-index: 1; /* Ensure the image is on top of other content */
+}
+
+#image2 {
+    opacity: 0; /* Initially hidden */
+    filter: grayscale(100%);
+}
+
+.image-container:hover #image1 {
+    opacity: 0; /* Hide the first image on hover */
+}
+
+.image-container:hover #image2 {
+    opacity: 1; /* Reveal the second image on hover */
+.long-way 
+  font-style: italic;
+  transition: all 4s ease-in-out;
+}
+
+/* Apply styles to the button */
+.button-container {
+    text-align: left;
+}
+
+p4{
+    color: black;
+}
+
+.button1 {
+    /* Add your button styles here */
+    color: none /* Change to your desired text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    text-decoration: none;
+
+}
+
+
+

@@ -6,10 +6,10 @@ body, h1, h2, p {
 
 /* Set a background color and font for the entire page */
 body {
-    font-family: courier, sans-serif;
-    background-color: black;
+    font-family: courier, helvetica;
+    background-color: #000000;
     color: white;
-    line-height: 1.6;
+    line-height: 6;
 }
 
 /* Style the header */
@@ -25,24 +25,33 @@ main {
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #000;
+    background-color: #000000;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Style headings */
 h1 {
-    font-size: 36px;
+    font-size: 40px;
     margin-bottom: 20px;
 }
 
+
 h2 {
-    font-size: 24px;
+    font-size: 40px;
     margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 150px;
+}
+
+h4 {
+    font font-size: 30px;
 }
 
 /* Style paragraphs */
 p {
-    font-size: 16px;
+    font-size: 36px;
     margin-bottom: 20px;
 }
 
@@ -61,11 +70,6 @@ footer {
     padding: 20px;
 }
 
-/* Style the plant image */
-.plant-image img {
-    max-width: 100%;
-    height: auto;
-}
 
 /* Style the plant description */
 .plant-description {
