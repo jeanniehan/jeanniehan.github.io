@@ -1,0 +1,199 @@
+ body, h1, h2, p, p2, p3, p4 {
+    margin: 5px;
+    padding: 0;
+}
+
+header {
+    background-color: #001400;
+    color: white;
+    line-height: 1.6;
+    text-align: center;
+}
+
+body {
+    background-image: url('https://i.pinimg.com/originals/50/d5/d3/50d5d3a08dc3971375531cbf50b96078.gif'); no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    line-height: 1;
+    text-align: center;
+    margin: 180px;
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: 'VinylGeorge-MpdJ';
+    src: url('VinylGeorge-MpdJ copy.ttf') format('truetype'); /* URL to your font file */
+    /* You may need to specify other font formats (e.g., woff, woff2) for cross-browser compatibility */
+}
+
+/* Apply the custom font to elements */
+body {
+    font-family: 'VinylGeorge-MpdJ', sans-serif; /* Use the font-family name specified in @font-face */
+    /* Add any other styles you want for the body */
+}
+
+header {
+    background-color: white;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+
+p2 {
+    font-size: 30px;
+    color: white;
+    line-height: 5;
+    margin: 10px;
+}
+
+.gradient-fill {
+    background: -webkit-linear-gradient(white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 5s ease;
+}
+
+.gradient-fill:hover {
+    background: -webkit-radial-gradient(white, white, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer; /* Changed from "plant" to "pointer" */
+}
+
+.image-container {
+    position: relative;
+    width: 600px;
+    height: 900px;
+    text-align: center;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto; /* Center the collage horizontally */
+    text-align: center;
+}
+
+.image {
+    max-width: 100%; /* Ensure images don't exceed their original size */
+    max-height: 100%; /* Ensure images don't exceed their original size */
+    position: absolute;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.image:nth-child(1) {
+    top: 0;
+    left: 0;
+}
+
+.image:nth-child(2) {
+    top: 50px; /* Adjust the top and left values to position the images as desired */
+    left: 50px;
+}
+
+.image {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%, -20%); /* Center the image horizontally and vertically */
+    transition: opacity 0.3s ease-in-out;
+    z-index: 1;
+}
+
+#image2 {
+    opacity: 0;
+}
+
+.image-container:hover #image1 {
+    opacity: 0;
+}
+
+.image-container:hover #image2 {
+    opacity: 1;
+}
+
+.long-way {
+    font-style: italic;
+    transition: all 4s ease-in-out;
+}
+
+.button-container {
+    text-align: left;
+}
+
+p4 {
+    color: white;
+}
+
+.button1 {
+    /* Add your button styles here */
+    color: none; /* This doesn't apply a color; you might want to set it to a valid color */
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+/* Add other styling as needed */
+.image-container {
+    display: flex;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-size: cover;
+}
+
+.collage {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.text-layer {
+    position: absolute;
+    padding: 20px;
+    background-color: none
+}
+
+.layer1 {
+    top: 10%;
+    left: 10%;
+    z-index: 2; /* Controls the layering order */
+}
+
+.layer2 {
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+}
+
+.layer3 {
+ top: 0%;
+ left: 260%;
+ z-index: 60%;
+}
+
+.typographic-collage {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-layer {
+    position: absolute;
+    color: white;
+}
