@@ -1,0 +1,129 @@
+
+    h1{
+      color: Red;
+      font-size: 40px;
+    }
+
+    body {
+      font-family: 'VinylGeorge-MpdJ', monospace;
+      color: whitesmoke;
+      background-color: black;
+      margin: 0;
+      padding: 20px;
+      background-image: url('https://botanicalgarden.berkeley.edu/wp-content/uploads/2018/08/puya-timelapse-ladder.gif'); /* Specify the path to your GIF */
+  background-size: cover; /* Adjust to 'contain' or other values as needed */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+    }
+
+    .content {
+  /* Your content styles go here */
+  padding: 20px;
+  color: #ffffff; /* Set text color to be visible on the background */
+}
+
+a {
+      text-decoration: none;
+    }
+    
+    /* Remove the default purple color */
+    a {
+      color: whitesmoke;
+    }
+    
+
+    p{
+      font-size: 30px;
+    }
+    p1{
+      font-size: 30px;
+    }
+
+    p2{
+      font-size: 40px;
+    }
+
+    p3{
+      font-size: 60px;
+    }
+
+    p4{
+      font-size: 30px;
+    }
+
+    p5{
+      font-size: 35px;
+    }
+
+    p6{
+      font-size: 40px;
+    }
+
+    p7{
+      font-size: 30px;
+    }
+
+    p8{
+      font-size: 29px;
+    }
+
+    @font-face {
+    font-family: 'VinylGeorge-MpdJ';
+    src: url('VinylGeorge-MpdJ copy 2.ttf') format('truetype'); /* URL to your font file */
+    /* You may need to specify other font formats (e.g., woff, woff2) for cross-browser compatibility */
+}
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .grid-item {
+      position: relative;
+      background-color: none;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      color: red;
+      text-decoration: none;
+      transition: transform 0.3s ease;
+    }
+
+    .grid-item:hover {
+      transform: scale(1.05);
+    }
+
+    .grid-item h2 {
+      font-size: 40px;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .grid-item p {
+      font-size: 18px;
+      line-height: 24px;
+      opacity: 0.8;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    }
+
+    .grid-item::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(45deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 75%);
+    }
+
+    /* Offset the sections from the top of the page */
+    #section1,
+    #section2,
+    #section3 {
+      scroll-margin-top: 150px;
+    }
+
