@@ -66,3 +66,15 @@ footer {
     background-color: #000;
     padding: 20px;
 }
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr; /* Single column on small screens */
+    grid-template-rows: repeat(9, 1fr); /* 1 by 9 vertical row */
+    gap: 5%; /* Adjust the gap for small screens */
+  }
+  .grid-item {
+    width: 100%; /* 100% width for full column */
+    height: 100px; /* Adjust as needed for the height of each row item */
+  }
+}
