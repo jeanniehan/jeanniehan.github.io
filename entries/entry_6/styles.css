@@ -1,16 +1,15 @@
 
     h1{
       color: Red;
-      font-size: 70px;
+      font-size: 40px;
     }
 
     body {
       font-family: 'VinylGeorge-MpdJ', monospace;
-      font-size: 50px;
       color: red;
       background-color: black;
       margin: 0;
-      padding: 40px;
+      padding: 20px;
       background-image: url('https://botanicalgarden.berkeley.edu/wp-content/uploads/2018/08/puya-timelapse-ladder.gif'); /* Specify the path to your GIF */
   background-size: cover; /* Adjust to 'contain' or other values as needed */
   background-repeat: no-repeat;
@@ -67,7 +66,6 @@ a {
     p8{
       font-size: 40px;
     }
-
 
     @font-face {
     font-family: 'VinylGeorge-MpdJ';
