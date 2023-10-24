@@ -6,13 +6,19 @@ body, h1, h2, p {
 
 /* Set a background color and font for the entire page */
 body {
-    font-family: courier, helvetica;
+    font-family: TodorraPellito-0Ww2d, courier, helvetica;
     background-color: #000000;
     color: white;
     line-height: 6;
-    background-image: url('https://i.gifer.com/origin/0c/0cd25aa50ed78a8913caee3159d5990f_w200.gif');
-    background-size: contain; /* Adjust this based on your needs */
+    background-image: url('https://1.bp.blogspot.com/_xjcwwA-nj8k/TKjP4WBAOLI/AAAAAAAAA3Q/ft5EMqccc2k/s1600/sexorgans.gif');
+    background-size: cover; /* Adjust this based on your needs */
     background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: 'TodorraPellito-0Ww2d';
+    src: url('TodorraPellito-0Ww2d.ttf') format('truetype'); /* URL to your font file */
+    /* You may need to specify other font formats (e.g., woff, woff2) for cross-browser compatibility */
 }
 
 /* Style the header */
@@ -25,7 +31,7 @@ header {
 
 /* Style the main content section */
 main {
-    max-width: 800px;
+    max-width: 600px;
     margin: 50px auto;
     padding: 20px;
     background-color: #000000;
