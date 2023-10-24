@@ -10,6 +10,9 @@ body {
     background-color: #000000;
     color: white;
     line-height: 6;
+    background-image: url('https://i.gifer.com/origin/0c/0cd25aa50ed78a8913caee3159d5990f_w200.gif');
+    background-size: cover; /* Adjust this based on your needs */
+    background-repeat: no-repeat;
 }
 
 /* Style the header */
@@ -31,7 +34,7 @@ main {
 
 /* Style headings */
 h1 {
-    font-size: 40px;
+    font-size: 100px;
     margin-bottom: 20px;
 }
 
