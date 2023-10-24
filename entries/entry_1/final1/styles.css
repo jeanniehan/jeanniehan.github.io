@@ -11,19 +11,16 @@ body {
     background-image: url('https://i.makeagif.com/media/10-25-2017/R8pxn2.gif');
     background-size: cover; /* Adjust this based on your needs */
     background-repeat: no-repeat;
-    font-family: 'crampsregular', Arial, sans-serif;
+    font-family: 'TodorraPellito-0Ww2d', Arial, sans-serif;
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 15px;
 }
 
 @font-face {
-    font-family: 'crampsregular';
-    src: url('crampsregular-ov7od-webfont.woff2') format('woff2'),
-         url('crampsregular-ov7od-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+    font-family: 'TodorraPellito-0Ww2d';
+    src: url('TodorraPellito-0Ww2d.ttf') format('truetype'); /* URL to your font file */
+    /* You may need to specify other font formats (e.g., woff, woff2) for cross-browser compatibility */
 }
 
 /* Define some basic styles for the content on your one-page website */
@@ -34,10 +31,10 @@ body {
 }
 
 h1 {
-font-family: 'crampsregular', Arial, sans-serif;
+font-family: 'TodorraPellito-0Ww2d', Arial, sans-serif;
 font-weight:normal;
 font-style:normal;
-font-size: 36px;
+font-size: 60px;
 }
 
 /* Add additional styles for your specific content as needed */
@@ -51,8 +48,8 @@ font-size: 36px;
 }
 
 p {
-    font-family: 'crampsregular', Arial, sans-serif;
-    font-size: 16px;
+    font-family: 'TodorraPellito-0Ww2d', Arial, sans-serif;
+    font-size: 20px;
     line-height: 1.5;
     margin-bottom: 10px;
 }
@@ -67,4 +64,3 @@ a:hover {
     color: #e74c3c;
 }
 
-/* You can add more styles and adjust the CSS to suit your specific website content and layout. */
