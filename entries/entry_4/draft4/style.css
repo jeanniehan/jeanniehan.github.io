@@ -6,17 +6,21 @@
  
 header {
     background-color: #001400;
-    color: black;
+    color: red;
     line-height: 1.6;
     text-align: center;
 }
 
+.custom-cursor {
+    cursor: url('https://cdn.icon-icons.com/icons2/2070/PNG/512/cactus_icon_126628.png'), auto;
+}
  
 body {
     /* Use linear gradient from top to bottom */
-    background: linear-gradient(to bottom, white, white, white, black, black);
-    background-color: #001400;
-    color: black;
+    background-image: url('https://i.pinimg.com/736x/a8/18/3f/a8183ff35ad1bb1a889287f37d3e38d8.jpg');
+    background-size: cover; /* Adjust this based on your needs */
+    background-repeat: no-repeat;
+    color: red;
     line-height: 1;
     text-align: center;
     margin: 180px;
@@ -36,8 +40,8 @@ body {
 }
  
 header {
-    background-color: black;
-    color: white;
+    background-color: red;
+    color: red;
     padding: 40px;
     text-align: center;
 }
@@ -48,45 +52,33 @@ header h1 {
 }
 
 p5{
-    color: white;
+    color: red;
 }
 
 p7{
-    color: black;
+    color: red;
 }
 
 p8{
-    color: white;
+    color: red;
 }
 
 p2{
     font-size: 30;
-    color: black;
+    color: red;
     line-height: 5;
 
 }
 
 p6{
-    color: white;
+    color: red;
 }
 
 p3{
     line-height: 5;
     margin: 10;
 }
-.gradient-fill {
-  background: -webkit-linear-gradient(black);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transition: all 5s ease;
-}
 
-.gradient-fill:hover {
-  background: -webkit-radial-gradient(#000000, #000000, #000000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  cursor: plant;
-}
 
 p2{
     line-height: 5;
@@ -102,45 +94,9 @@ p2{
 .gradient-fill:hover {
   background: -webkit-radial-gradient(#000000, #000000, #000000);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  cursor: plant;
+  -webkit-text-fill-color: red;
 }
 
-.image-container {
-    position: relative;
-    width: 600px; /* Adjust the width and height as needed */
-    height: 900px;
-    text-align: center;
-}
-
-.image {
-    width: auto; /* Allow the image to scale proportionally */
-    height: auto;
-    max-width: 100%; /* Ensure the image doesn't exceed the container's width */
-    max-height: 100%; /* Ensure the image doesn't exceed the container's height */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: center; /* Center-align the image */
-    transition: opacity 0.3s ease-in-out; /* Add a smooth transition effect */
-    z-index: 1; /* Ensure the image is on top of other content */
-}
-
-#image2 {
-    opacity: 0; /* Initially hidden */
-    filter: grayscale(100%);
-}
-
-.image-container:hover #image1 {
-    opacity: 0; /* Hide the first image on hover */
-}
-
-.image-container:hover #image2 {
-    opacity: 1; /* Reveal the second image on hover */
-.long-way 
-  font-style: italic;
-  transition: all 4s ease-in-out;
-}
 
 /* Apply styles to the button */
 .button-container {
@@ -148,12 +104,12 @@ p2{
 }
 
 p4{
-    color: black;
+    color: red;
 }
 
 .button1 {
     /* Add your button styles here */
-    color: none /* Change to your desired text color */
+    color: white; /* Change to your desired text color */
     padding: 10px 20px; /* Adjust padding as needed */
     text-decoration: none;
 

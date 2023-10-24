@@ -5,7 +5,7 @@
     }
 
     body {
-      font-family: 'VinylGeorge-MpdJ', monospace;
+      font-family: 'BlowMePersonalUseRegular-g105', monospace;
       font-size: 50px;
       color: red;
       background-color: black;
@@ -70,8 +70,8 @@ a {
 
 
     @font-face {
-    font-family: 'VinylGeorge-MpdJ';
-    src: url('VinylGeorge-MpdJ copy 2.ttf') format('truetype'); /* URL to your font file */
+    font-family: 'BlowMePersonalUseRegular-g105';
+    src: url('BlowMePersonalUseRegular-g105.ttf') format('truetype'); /* URL to your font file */
     /* You may need to specify other font formats (e.g., woff, woff2) for cross-browser compatibility */
 }
 
