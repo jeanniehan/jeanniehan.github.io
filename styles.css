@@ -1,13 +1,58 @@
-```css body { background-color: #111; color: #fff; font-family: Arial, sans-serif; margin: 0; }
+/* Set the background color of the body to black and center its content both horizontally and vertically. */
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center; /* Align the content horizontally */
+  align-items: center; /* Align the content vertically */
+  height: 100vh; /* Set the height of the body to the full viewport height */
+  margin: 0;
+}
 
-header { background-color: #222; padding: 20px; text-align: center; }
+@font-face {
+  font-family: 'Dirtyboy-BxY'; /* Replace 'CustomFont' with your desired font name */
+  src: url('Dirtyboy-BxYl.ttf') format('truetype');
+  }
 
-h1 { font-size: 30px; letter-spacing: 2px; margin: 0; }
+body{
+	text-align: center;
+	font-family: Dirtyboy-BxY;
+	color: White;
+	font-size: 50px;
+}
 
-.gallery { display: flex; flex-wrap: wrap; justify-content: center; padding: 20px; }
+/* Apply styles to an ordered list (ol) */
+ol {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
 
-.item { width: 300px; margin: 20px; }
+/* Apply styles to list items (li) */
+li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  margin: 10px;
+  transform: rotate(-45deg); /* Rotate the list items by -45 degrees */
+  transition: background-color 0.3s; /* Smooth transition for background-color changes */
+}
 
-.item img { width: 100%; }
+/* Apply styles when hovering over list items */
+li:hover {
+  background-color: none; /* This line should be updated to reset the background color. For example, 'background-color: white;' to change it back to white. */
+}
 
-footer { background-color: #222; padding: 20px; text-align: center; } ```
+/* Apply styles to anchor (a) elements */
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  transform: rotate(45deg); /* Rotate anchor elements by 45 degrees */
+}
