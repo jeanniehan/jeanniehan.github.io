@@ -1,0 +1,13 @@
+```css body { background-color: #111; color: #fff; font-family: Arial, sans-serif; margin: 0; }
+
+header { background-color: #222; padding: 20px; text-align: center; }
+
+h1 { font-size: 30px; letter-spacing: 2px; margin: 0; }
+
+.gallery { display: flex; flex-wrap: wrap; justify-content: center; padding: 20px; }
+
+.item { width: 300px; margin: 20px; }
+
+.item img { width: 100%; }
+
+footer { background-color: #222; padding: 20px; text-align: center; } ```
