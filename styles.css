@@ -1,6 +1,6 @@
 /* Set the background color of the body to black and center its content both horizontally and vertically. */
 body {
-  background-color: black;
+  background-color: blueviolet;
   display: flex;
   justify-content: center; /* Align the content horizontally */
   align-items: center; /* Align the content vertically */
