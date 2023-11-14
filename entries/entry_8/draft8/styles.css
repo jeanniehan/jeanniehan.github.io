@@ -1,0 +1,45 @@
+body {
+  font-family: 'NoMercyPersonalUseOnly-lgEjd', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #00ced1;
+  background-image: url(kseniya-lapteva-6iUiRv_RX8w-unsplash.jpg);
+}
+
+header {
+  background-color: transparent; /* LightSeaGreen */
+  color: #00ced1;
+  padding: 1em;
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'NoMercyPersonalUseOnly-lgEjd';
+  src: url('NoMercyPersonalUseOnly-lgEjd.ttf') format('truetype');
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+button {
+  background-color: transparent; 
+  color: turquoise;
+  font-size: 30px;
+  outline: transparent;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: transparent;
+outline: transparent;
+}
+
+
+
+
+#buttonSection {
+  text-align: center;
+}
