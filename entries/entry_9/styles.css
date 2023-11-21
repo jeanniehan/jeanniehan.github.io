@@ -1,0 +1,39 @@
+/* You can change the colors, font, and so on below */
+
+		body {
+			margin: 75px;
+			font-size: 20px;
+			font-family: AfterisMoghu-K7aRZ;
+			background-image: url('skeleton.jpg'); /* Replace with the correct path to your image */
+    background-size: cover; /* Adjust the sizing of the background */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+		}
+
+	@font-face {
+    font-family: 'AfterisMoghu-K7aRZ'; /* Choose a name for your font */
+    src: url('AfterisMoghu-K7aRZ.otf') format('opentype'); /* Replace with the correct path to your TTF file */
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+		.button-container {
+			position: fixed;
+			bottom: 75px;
+			right: 75px;
+			font-size: 50px;
+			border-color: transparent;
+		}
+
+		.list-one {
+			color: #420D09;
+		}
+
+		.list-two {
+			color: #420D09;
+		}
+        
+        .list-three {
+			color: #420D09;
+		}

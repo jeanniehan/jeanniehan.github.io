@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Ephemeral Flower Collection</title>
+	<link rel="stylesheet" href="styles.css">
+	<p>  Diphylleia grayi. </p>
+	<!-- 
+	***** START CSS ***** 
+	-->
+	<style>
+
+		/* You can change the colors, font, and so on below */
+
+		p{
+			font-size: 60px;
+		}
+		body {
+			margin: 75px;
+			font-size: 30px;
+		}
+
+		.button-container {
+			position: fixed;
+			bottom: 75px;
+			right: 75px;
+		}
+
+		.list-one {
+			color: #800000;
+		}
+
+		.list-two {
+			color: #800000;
+		}
+        
+        .list-three {
+			color: #800000;
+		}
+
+	</style>
+	<!-- 
+	***** END CSS ***** 
+	-->
+
+  <script src="script.js"></script>
+	<!-- 
+	***** START JAVASCRIPT ***** 
+	-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			// list one content
+			var one = [
+				"delicate",
+				"translucent",
+				"intriguing",
+				"rare",
+				"ethereal",
+				"subtle",
+				"graceful",
+				"mysterious",
+				"exquisite",
+				"fragrant",
+				"skeletal",
+				"abnormal",
+				"grim",
+				"eerie",
+				"glassy",
+			];
+
+			// list two content
+			var two = [
+				"petals",
+				"blossom",
+				"stem",
+				"umbel",
+				"botany",
+				"floral display",
+				"foliage",
+				"perennial",
+				"flowerbed",
+				"flower",
+				"specimen",
+				"inflorescence",
+				"bud",
+				"botanical garden",
+				"adornment",
+			];
+            
+            // list three content
+			var three = [
+				"woodlands",
+				"garden",
+				"greenhouse",
+				"wildflower meadows",
+                "landscape",
+				"grave",
+				"lab",
+				"nature reserves",
+                "shaded fields",
+				"streams",
+				"river",
+			];
+            
+
+			// This is a very common randomizing function.
+			// It takes a list (array) and returns one at random.
+			function select_random(x){
+				y = x[Math.floor(Math.random()*x.length)];
+				return y;
+			}
+
+			function generate(){
+
+				// Select a random item from each list
+				var selected_one = select_random(one);
+				var selected_two = select_random(two);
+                var selected_three = select_random(three);
+
+				// Take the selected (random) item from list and make it visible
+				$('.list-one').html(selected_one);
+				$('.list-two').html(selected_two);
+                $('.list-three').html(selected_three);
+
+			}
+
+			$('button').click(function(){
+				generate();
+			});
+
+			generate();
+			
+		});
+
+	</script>
+	<!-- 
+	***** END JAVASCRIPT ***** 
+	-->
+
+</head>
+
+<body>
+
+	<!--
+	This is the button.
+	-->
+	<div class="button-container">
+		<button> click for more.</button>
+	</div>
+
+	<!--
+	This is the visible portion.
+
+	If you want your words or phrases to go side-by-side, use...
+
+	<span></span>
+
+    if you want your words or phrases to stack vertically, use...
+
+    <div></div>
+
+	in the code below.
+	-->
+	The <span class="list-one"></span> <span class="list-two"></span> exists within the <span class="list-three"></span>.
+
+</body>
+
+</html>
