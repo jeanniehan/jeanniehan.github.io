@@ -7,7 +7,15 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<title>Ephemeral Flower Collection</title>
 	<link rel="stylesheet" href="styles.css">
+
+	    <nav>
+        <ul>
+           <a href="file:///Users/jeanniehan/Desktop/jeanniehan.github.io/index.html"> Ephemeral Flower Collection </a> 
+        </ul>
+    </nav>
+
 	<p>  Diphylleia grayi. </p>
+
 	<!-- 
 	***** START CSS ***** 
 	-->
@@ -27,6 +35,7 @@
 			position: fixed;
 			bottom: 75px;
 			right: 75px;
+			border: none; /* Remove default border */
 		}
 
 		.list-one {
@@ -40,6 +49,38 @@
         .list-three {
 			color: #800000;
 		}
+
+nav {
+    display: flex;
+    justify-content: top;
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+nav a {
+    color: black; /* Set the color for the navigation links */
+    text-decoration: none;
+    margin-right: 10px; /* Adjust spacing between navigation links */
+    font-size: 25px;
+}
+
+nav a:hover {
+    color: gray; /* Set the color for the navigation links on hover */
+}
+
+/* Style the home button */
+a.home-button {
+    color: white; /* Set the color for the home button */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a.home-button:hover {
+    color: gray; /* Set the color for the home button on hover */
+}
+
 
 	</style>
 	<!-- 

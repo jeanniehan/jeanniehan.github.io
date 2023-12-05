@@ -89,3 +89,18 @@ input:checked + .slider {
 input:checked + .slider:before {
     transform: translateX(26px);
 }
+
+a.home-button {
+    color: papayawhip; /* Set the color for the home button */
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 15px;
+    margin-right: 20px; /* Adjust spacing between the button and images */
+    display: inline-block; /* Ensure the button is inline with the content */
+    line-height: 1; /* Reset line height to remove extra space */
+    padding: 10px; /* Add padding for better visual appearance */
+}
+
+a.home-button:hover {
+    color: gray; /* Set the color for the home button on hover */
+}

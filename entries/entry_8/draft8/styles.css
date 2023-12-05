@@ -11,6 +11,7 @@ header {
   color: #00ced1;
   padding: 1em;
   text-align: center;
+  margin-top: 50px;
 }
 
 @font-face {
@@ -38,8 +39,38 @@ outline: transparent;
 }
 
 
-
-
 #buttonSection {
   text-align: center;
+}
+
+/* Style the navigation */
+nav {
+    display: flex;
+    justify-content: top;
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+nav a {
+    color: turquoise; /* Set the color for the navigation links */
+    text-decoration: none;
+    margin-right: 10px; /* Adjust spacing between navigation links */
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: gray; /* Set the color for the navigation links on hover */
+}
+
+/* Style the home button */
+a.home-button {
+    color: turquoise; /* Set the color for the home button */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a.home-button:hover {
+    color: gray; /* Set the color for the home button on hover */
 }

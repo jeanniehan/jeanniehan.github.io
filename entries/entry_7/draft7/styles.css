@@ -12,5 +12,36 @@
          font-size: 16px; /* Adjust the font size for smaller screens */
          line-height: 30px; /* Adjust the line height for smaller screens */
        }
-       
+
+       /* Style the navigation */
+nav {
+    display: flex;
+    justify-content: top;
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+nav a {
+    color: ; /* Set the color for the navigation links */
+    text-decoration: none;
+    margin-right: 10px; /* Adjust spacing between navigation links */
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: gray; /* Set the color for the navigation links on hover */
+}
+
+/* Style the home button */
+a.home-button {
+    color: white; /* Set the color for the home button */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a.home-button:hover {
+    color: gray; /* Set the color for the home button on hover */
+}
 </style>

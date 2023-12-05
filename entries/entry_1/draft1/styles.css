@@ -4,63 +4,55 @@ html, body, div, h1, h2, h3, p {
     padding: 0;
 }
 
-/* Set the background color to black */
+/* Set the background color and image */
 body {
+    margin: 20px;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: top; /* Center children horizontally */
+    justify-content: center; /* Center children vertically */
+    min-height: 100vh;
     background-color: black;
-    color: white; /* Set the font color to white */
-    background-image: url('https://i.makeagif.com/media/10-25-2017/R8pxn2.gif');
-    background-size: cover; /* Adjust this based on your needs */
+    color: #C18F32;
+    background-image: url('https://cdn.openart.ai/stable_diffusion/c28578e06b515c11e0a00edf91a81d5b57a038f3_2000x2000.webp');
+    background-size: cover;
     background-repeat: no-repeat;
-    font-family: 'TodorraPellito-0Ww2d', Arial, sans-serif;
-    font-size: 24px;
+    font-family: 'SmoochSans-VariableFont_wght', Arial, sans-serif;
+    font-size: 14px;
     font-weight: bold;
-    margin-bottom: 15px;
+    line-height: 2;
 }
 
-@font-face {
-    font-family: 'TodorraPellito-0Ww2d';
-    src: url('TodorraPellito-0Ww2d.ttf') format('truetype'); /* URL to your font file */
-    /* You may need to specify other font formats (e.g., woff, woff2) for cross-browser compatibility */
+/* Style the navigation */
+nav {
+    display: flex;
+    justify-content: top;
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-/* Define some basic styles for the content on your one-page website */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+nav a {
+    color: #C18F32; /* Set the color for the navigation links */
+    text-decoration: none;
+    margin-right: 10px; /* Adjust spacing between navigation links */
+    font-size: 15px;
 }
 
-h1 {
-font-family: 'TodorraPellito-0Ww2d', Arial, sans-serif;
-font-weight:normal;
-font-style:normal;
-font-size: 60px;
+nav a:hover {
+    color: gray; /* Set the color for the navigation links on hover */
 }
 
-/* Add additional styles for your specific content as needed */
-
-/* Example: Styling a section with a background color */
-.section {
-    background-color: rgba(255, 255, 255, 0.1);
-    padding: 20px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-p {
-    font-family: 'TodorraPellito-0Ww2d', Arial, sans-serif;
-    font-size: 20px;
-    line-height: 1.5;
-    margin-bottom: 10px;
-}
-/* Example: Styling links */
-a {
-    color: #3498db;
+/* Style the home button */
+a.home-button {
+    color: white; /* Set the color for the home button */
     text-decoration: none;
     transition: color 0.3s;
+    font-size: 15px;
 }
 
-a:hover {
-    color: #e74c3c;
+a.home-button:hover {
+    color: gray; /* Set the color for the home button on hover */
 }
 

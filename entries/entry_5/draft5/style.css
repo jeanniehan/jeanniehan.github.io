@@ -41,7 +41,8 @@ header {
 
 header h1 {
     font-size: 200px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
+    margin-top: 20px;
 }
 
 p2 {
@@ -111,5 +112,37 @@ p5{
 .text-layer {
     position: absolute;
     color: white;
+}
+
+/* Style the navigation */
+nav {
+    display: flex;
+    justify-content: top;
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+nav a {
+    color: white; /* Set the color for the navigation links */
+    text-decoration: none;
+    margin-right: 10px; /* Adjust spacing between navigation links */
+    font-size: 25px;
+}
+
+nav a:hover {
+    color: gray; /* Set the color for the navigation links on hover */
+}
+
+/* Style the home button */
+a.home-button {
+    color: white; /* Set the color for the home button */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a.home-button:hover {
+    color: gray; /* Set the color for the home button on hover */
 }
 

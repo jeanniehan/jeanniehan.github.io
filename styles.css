@@ -1,58 +1,88 @@
-/* Set the background color of the body to black and center its content both horizontally and vertically. */
 body {
-  background-color: black;
-  display: flex;
-  justify-content: center; /* Align the content horizontally */
-  align-items: center; /* Align the content vertically */
-  height: 100vh; /* Set the height of the body to the full viewport height */
-  margin: 0;
+  margin:px;
+  padding-left: 380px;
+  padding-right: 380px;
+  font-size: 30px;
+  color: black;
+   overflow: hidden;
+   background-image: url(https://images.unsplash.com/photo-1597227093570-eccc70d8a416?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+   cursor: url('flame-png-flame-28.png'), auto;
 }
+
+.curly-line {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.line-1 {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100 100"><path d="M0 50 Q 25 75, 50 50 T 100 50" stroke="white" stroke-width="2" fill="transparent"/></svg>');
+}
+
+.line-2 {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100 100"><path d="M0 50 Q 25 25, 50 50 T 100 50" stroke="white" stroke-width="2" fill="transparent"/></svg>');
+}
+
+.background {
+  font-family: 'Dirtyboy-BxYl', sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: -1; /* Place it behind other elements */
+}
+
 
 @font-face {
-  font-family: 'Dirtyboy-BxY'; /* Replace 'CustomFont' with your desired font name */
+  font-family: 'Dirtyboy-BxYl'; /* Choose a name for your font family */
   src: url('Dirtyboy-BxYl.ttf') format('truetype');
-  }
-
-body {
-	text-align: center;
-	font-family: Dirtyboy-BxY;
-	color: White;
-	font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
 }
 
-/* Apply styles to an ordered list (ol) */
-ol {
+.wrapper {
+  font-family: 'Dirtyboy-BxYl', sans-serif;
+  text-align: center;
+}
+
+.subtitle {
+  font-family: 'Dirtyboy-BxYl', arial;
+  font-size: 20px;
+  text-align: center;
+}
+
+.command {
+  font-family: 'Dirtyboy-BxYl', arial;
+  text-align: center;
+  font-size: 40px;
+}
+
+.container {
   display: flex;
   flex-wrap: wrap;
+  width: 550px;
   justify-content: center;
-  align-items: center;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
 }
 
-/* Apply styles to list items (li) */
-li {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100px;
-  width: 100px;
-  background-color: black;
-  margin: 10px;
-  transform: rotate(-45deg); /* Rotate the list items by -45 degrees */
-  transition: background-color 0.3s; /* Smooth transition for background-color changes */
-}
-
-/* Apply styles when hovering over list items */
-li:hover {
-  background-color: none; /* This line should be updated to reset the background color. For example, 'background-color: white;' to change it back to white. */
-}
-
-/* Apply styles to anchor (a) elements */
 a {
-  color: white;
-  text-decoration: none;
-  font-size: 30px;
-  transform: rotate(45deg); /* Rotate anchor elements by 45 degrees */
+  display: block;
+  width: 550px;
+  height: 550px;
+  margin: 0px;
+  background-size: cover;
+  transition: background-color 0.3s ease, filter 0.5s ease; /* Add filter transition */
+}
+
+.item {
+  background-color: transparent;
+  filter: grayscale(0%); /* Initial state: not grayscale */
+}
+
+.item:hover {
+  background-color: transparent;
+  filter: grayscale(100%); /* Hover state: fully grayscale */
 }
