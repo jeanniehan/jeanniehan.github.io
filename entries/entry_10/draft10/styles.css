@@ -95,10 +95,11 @@ a.home-button {
     text-decoration: none;
     transition: color 0.3s;
     font-size: 15px;
-    margin-right: 20px; /* Adjust spacing between the button and images */
-    display: inline-block; /* Ensure the button is inline with the content */
-    line-height: 1; /* Reset line height to remove extra space */
-    padding: 10px; /* Add padding for better visual appearance */
+    position: absolute; /* Position the button absolutely */
+    top: 20px; /* Adjust the top position as needed */
+    left: 50%; /* Center the button horizontally */
+    transform: translateX(-50%); /* Center the button horizontally */
+    z-index: 1; /* Ensure the button is above the image */
 }
 
 a.home-button:hover {
