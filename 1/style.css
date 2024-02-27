@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: 'Pixer-Regular', Arial, sans-serif;
+  line-height: 100px;
+  text-align: center;
+  animation: backgroundTransition 25s infinite alternate; /
+}
+
+
+h1 {
+margin: 0;
+padding: 20px 0;  
+width: 100%;
+text-align: center;
+font-size: 40px;
+color: white;
+}
+
+@font-face {
+  font-family: 'Pixer-Regular';
+  src: url('Pixer-Regular') format('truetype'),
+       url('Pixer-Regular.ttf') format('truetype');
+}
+
+.container {
+  max-width: 800px; 
+  margin: 0 auto;
+  padding: 0 20px;  
+}
+
+.hidden-text {
+  color: white;
+  font-size: 14px;  
+  text-align: left;
+}
+
+.word {
+  display: inline-block;
+  transform: rotate(-2deg); 
+  transition: transform 0.3s ease;
+}
+
+.word:hover {
+  transform: rotate(2deg);  
+}
+
+.blurred {
+  filter: blur(3px);  
+}
+
+@media (min-width: 768px) {
+.container {
+  font-size: 18px;  
+}
+}
+
+@media (max-width: 767px) {
+.container {
+  font-size: 10px;  
+  overflow-y: scroll;  
+} }
+
+.word {
+  display: inline-block;
+}
+
+.word:hover {
+  transform: rotate(2deg);  
+  color: black;  
+}
+
+.blurred {
+  filter: blur(3px); 
+  color: black;
+}
+
+@keyframes backgroundTransition {
+  0% {
+    background-color: black;  
+  }
+  50% {
+    background-color: white;  
+  }
+  100% {
+    background-color: black;  
+} }
+
+ 

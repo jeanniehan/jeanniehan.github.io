@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: 'Pixer-Regular', Arial, sans-serif;
+  line-height: 100px;
+  text-align: center;
+  animation: backgroundTransition 25s infinite alternate; /
+}
+
+
+h1 {
+margin: 0;
+padding: 20px 0;  
+width: 100%;
+text-align: center;
+font-size: 40px;
+color: white;
+}
+
+@font-face {
+  font-family: 'Pixer-Regular';
+  src: url('Pixer-Regular') format('truetype'),
+       url('Pixer-Regular.ttf') format('truetype');
+}
+
+.container {
+  max-width: 800px; 
+  margin: 0 auto;
+  padding: 0 20px;  
+}
+
+.hidden-text {
+  color: white;
+  font-size: 14px;  
+  text-align: left;
+}
+
+.word {
+  display: inline-block;
+  transform: rotate(-2deg); 
+  transition: transform 0.3s ease;
+}
+
+.word:hover {
+  transform: rotate(2deg);  
+}
+
+
+
+@media (min-width: 768px) {
+.container {
+  font-size: 18px;  
+}
+}
+
+@media (max-width: 767px) {
+.container {
+  font-size: 10px;  
+  overflow-y: scroll;  
+} }
+
+.word {
+  display: inline-block;
+  transition: transform 4.3s ease, opacity 4.5s ease, text-shadow 0.5s ease;
+}
+
+.word:hover {
+  color: black;  
+  transform: rotate(2deg);  
+  opacity: 3.5;  
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+.blurred {
+  filter: blur(1s);
+  color: black;
+  transition: filter 1s ease;
+}
+
+@keyframes backgroundTransition {
+  0% {
+    background-color: black;  
+  }
+  50% {
+    background-color: white;  
+  }
+  100% {
+    background-color: black;  
+} }
